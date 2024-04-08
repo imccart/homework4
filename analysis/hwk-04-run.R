@@ -253,5 +253,5 @@ plot.35 <- love.plot(bal.tab(lp.covs,treat=lp.vars$rounded), colors="black", sha
   theme_bw() + theme(legend.position="none")
 
 
-rm(list=c("full.ma.data", "ma.data","ma.mkt.data", "ma.data.clean"))
-save.image("assignments/Hwk4_workspace.Rdata")
+rm(list=c("ma.data","ma.mkt.data", "ma.data.clean"))
+save.image("analysis/Hwk4_workspace.Rdata")
